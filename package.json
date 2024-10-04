@@ -1,0 +1,34 @@
+{
+  "name": "xcta-strapi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.0.2",
+    "@strapi/plugin-users-permissions": "5.0.2",
+    "@strapi/strapi": "5.0.2",
+    "better-sqlite3": "9.4.3",
+    "fs-extra": "^10.0.0",
+    "mime-types": "^2.1.27",
+    "pg": "^8.13.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "a48b6f42-e3d4-429f-b4c4-c95e4a1958f5"
+  }
+}
