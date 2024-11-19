@@ -593,7 +593,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
           preset: 'default';
         }
       >;
-    highlight: Schema.Attribute.String;
+    highlight: Schema.Attribute.Text;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;

@@ -39,7 +39,7 @@
       "customField": "plugin::ckeditor5.CKEditor"
     },
     "highlight": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
