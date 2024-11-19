@@ -577,6 +577,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
     singularName: 'service';
     pluralName: 'services';
     displayName: 'Service';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -592,6 +593,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
           preset: 'default';
         }
       >;
+    highlight: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
